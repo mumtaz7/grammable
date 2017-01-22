@@ -41,3 +41,9 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+
+# Testing framework
+group :development, :test do
+  gem 'rspec-rails', '~> 3.5'
+end
+
