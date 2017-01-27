@@ -1,5 +1,14 @@
 source 'https://rubygems.org'
 
+# Figaro
+gem "figaro"
+
+# Fog
+gem "fog"
+
+# CarrierWave
+gem 'carrierwave', '0.11.2'
+
 # Rails12factor
 gem 'rails_12factor', group: :production
 
